@@ -2,6 +2,8 @@
 
 A browser driving game with timed laps, drift challenges and a fictional supercar.
 
+![Mountain Driving gameplay on Coastal Pass](docs/images/gameplay.gif)
+
 ## Play locally
 
 Requires Node.js 22+ and a browser with WebGL 2 and graphics acceleration.
@@ -27,6 +29,8 @@ vehicle damage and personal-best ghosts.
 
 No accounts or analytics. Progress stays in memory and resets on reload or road
 change. [Privacy](game/privacy.html).
+
+![Mountain Driving on desktop and mobile with touch controls](docs/images/desktop-mobile.webp)
 
 ## Development
 

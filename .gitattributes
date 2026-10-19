@@ -5,3 +5,5 @@
 *.glb -text
 *.wav -text
 *.ogg -text
+*.gif -text
+*.webp -text
