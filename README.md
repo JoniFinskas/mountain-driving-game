@@ -39,8 +39,7 @@ pnpm check
 pnpm test
 ```
 
-Edit `ui/controls.jsx` and run `pnpm build:ui` to rebuild the dropdown bundle.
-Static game: `game/`.
+The playable game is in `game/`.
 
 ## Limitations
 
