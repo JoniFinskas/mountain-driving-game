@@ -2,6 +2,8 @@
 
 A browser driving game with timed laps, drift challenges and a fictional supercar.
 
+[Play online](https://mountain-driving-game.pages.dev/)
+
 ![Mountain Driving gameplay on Coastal Pass](docs/images/gameplay.gif)
 
 ## Play locally
