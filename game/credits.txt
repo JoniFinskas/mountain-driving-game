@@ -1,4 +1,4 @@
-MOUNTAIN DRIVING — ATTRIBUTION
+MOUNTAIN DRIVING: ATTRIBUTION
 
 Model: Fictional supercar - V12 Goblin
 Creator: Olli Teittinen (ollitei)
@@ -12,9 +12,9 @@ The creator describes this as a fictional design with a unique exterior and no i
 Distributed adaptation: assets/goblin.glb.
 Changes: converted the supplied FBX to glTF, reoriented and scaled the geometry,
 removed the presentation shadow plane, neutralized the wheel axles, rebuilt PBR
-materials and embedded resized textures. Added selectable paint, tinted glass,
-rear brake-light response, independent wheel steering and rolling, and rear
-wheel lock. Brake calipers steer with the front wheels but do not spin.
+materials and embedded resized textures. Added selectable paint, including matte
+black and preset finishes, tinted glass, responsive brake lights, independent
+wheel steering and rolling, and rear wheel lock. Brake calipers steer with the front wheels but do not spin.
 The source body shape and its integrated exhaust outlets are retained.
 The driving calibration and generic V8 soundtrack are gameplay adaptations,
 not specifications or a recording of a real V12 engine.
@@ -36,19 +36,19 @@ The software is provided without warranty.
 Third-party licences above remain applicable to their respective assets.
 
 
-LANDSCAPE ASSETS — CC0 1.0
+LANDSCAPE ASSETS: CC0 1.0
 Poly Haven assets are CC0: https://polyhaven.com/license
 https://creativecommons.org/publicdomain/zero/1.0/
 
-Alps Field — Andreas Mischok
+Alps Field: Andreas Mischok
 https://polyhaven.com/a/alps_field
 File: alps_field_2k.hdr (environment lighting and reflections)
 
-Aerial Grass Rock — Rob Tuytel
+Aerial Grass Rock: Rob Tuytel
 https://polyhaven.com/a/aerial_grass_rock
 Files: aerial_grass_rock_diff_2k.jpg, aerial_grass_rock_nor_gl_1k.jpg
 
-Rock Face 03 — Dario Barresi (photography), Rico Cilliers (processing)
+Rock Face 03: Dario Barresi (photography), Rico Cilliers (processing)
 https://polyhaven.com/a/rock_face_03
 Files: rock_face_03_diff_2k.jpg, rock_face_03_nor_gl_1k.jpg
 
@@ -60,26 +60,26 @@ Mediterranean roads, not surveyed routes. The circuit layout is credited below.
 The photographic HDR environment is an alpine lighting source. The sky and
 coastal background geometry are authored for the fictional route.
 
-AUDIO — CC0 1.0
-tire-squeal — JeffPearson
+AUDIO: CC0 1.0
+tire-squeal: JeffPearson
 https://freesound.org/people/JeffPearson/sounds/850041/
 Public OGG preview: https://cdn.freesound.org/previews/850/850041_17113968-lq.ogg
 Distributed locally as tyres.ogg.
 
-Car Strong Wind Noise.mp3 — FunWithSound
+Car Strong Wind Noise.mp3: FunWithSound
 https://freesound.org/people/FunWithSound/sounds/439242/
 Public OGG preview: https://cdn.freesound.org/previews/439/439242_6456158-lq.ogg
 Distributed locally as wind.ogg.
 
 The source pages expressly identify these audio assets as CC0.
 Tyre and wind recordings are cropped/crossfaded in memory for playback.
-The impact transient is synthesized.
+Short exhaust and impact sounds are synthesized separately from the V8 recordings.
 These are generic vehicle sounds, not a verified recording of this exact car.
 All asset licences checked on 2026-09-09. No attribution is required by CC0;
-creator credits are retained for provenance and acknowledgement.
+creator credits document the sources and acknowledge the creators.
 
-V8 ENGINE AUDIO — CC BY-SA 4.0
-Generic V8 Engine Sound — DerMeehdrescher / Meehdrescher Studios
+V8 ENGINE AUDIO: CC BY-SA 4.0
+Generic V8 Engine Sound: DerMeehdrescher / Meehdrescher Studios
 https://opengameart.org/content/generic-v8-engine-sound
 Original archive: https://opengameart.org/sites/default/files/genericv8sound.zip
 Licence: https://creativecommons.org/licenses/by-sa/4.0/
@@ -97,8 +97,8 @@ The creator identifies these as V8 engine sounds; exact vehicle and recording
 provenance are not verified. They are not claimed as V12 Goblin or V12 engine recordings.
 
 
-PINE MATERIALS — CC0 1.0
-Pine Tree 01 — Rob Tuytel (photography), Rico Cilliers (modeling)
+PINE MATERIALS: CC0 1.0
+Pine Tree 01: Rob Tuytel (photography), Rico Cilliers (modeling)
 https://polyhaven.com/a/pine_tree_01
 https://polyhaven.com/license
 https://creativecommons.org/publicdomain/zero/1.0/
@@ -111,10 +111,9 @@ and applies the photographs to procedurally arranged branches and trunks.
 The complete Pine Tree 01 geometry is not included. Source file hashes and
 CC0 licence checked on 2026-09-10.
 
-Short exhaust and impact transients are synthesized separately from the licensed V8 recordings.
 
 
-NÜRBURGRING GRAND PRIX LAYOUT — MIT
+NÜRBURGRING GRAND PRIX LAYOUT: MIT
 F1 Circuits by Tomislav Bacinger, copyright 2019–2025.
 https://github.com/bacinger/f1-circuits/blob/master/circuits/de-1927.geojson
 Data: assets/nurburgring-gp.json. Complete licence and source revision:
@@ -123,9 +122,10 @@ Coordinates are projected into the game and smoothed into a closed route. The
 horizontal layout follows the source. Elevation, widths, surroundings and pit
 buildings are simplified. This is an unofficial recreation with no endorsement.
 
-INTERFACE — MIT
+INTERFACE: MIT
 React, React DOM and Radix Select. Bundled dependency versions and complete
 licence texts are in vendor/ui-controls.LICENSE.txt.
 
-Additional runtime adaptations: matte black and preset car paint finishes;
-phase-aligned, energy-compensated engine-loop seams. Original audio asset bytes are retained. Engine-audio adaptations remain CC BY-SA 4.0.
+Engine-loop crossfades align the waveforms and compensate for volume changes.
+The original audio files are unchanged. These audio adaptations remain under
+CC BY-SA 4.0.
