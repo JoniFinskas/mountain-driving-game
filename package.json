@@ -1,0 +1,26 @@
+{
+  "name": "mountain-driving",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=11.19.0 <12"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build:ui": "node scripts/build-ui.mjs"
+  },
+  "dependencies": {
+    "@radix-ui/react-select": "2.3.7",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

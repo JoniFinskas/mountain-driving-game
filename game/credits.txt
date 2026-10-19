@@ -1,0 +1,131 @@
+MOUNTAIN DRIVING — ATTRIBUTION
+
+Model: Fictional supercar - V12 Goblin
+Creator: Olli Teittinen (ollitei)
+Creator profile: https://sketchfab.com/ollitei
+Original source: https://sketchfab.com/3d-models/fictional-supercar-v12-goblin-0a20e49ad5774d778567cb5c3f345786
+Model identifier: 0a20e49ad5774d778567cb5c3f345786
+Licence: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+The creator describes this as a fictional design with a unique exterior and no interior.
+
+Distributed adaptation: assets/goblin.glb.
+Changes: converted the supplied FBX to glTF, reoriented and scaled the geometry,
+removed the presentation shadow plane, neutralized the wheel axles, rebuilt PBR
+materials and embedded resized textures. Added selectable paint, tinted glass,
+rear brake-light response, independent wheel steering and rolling, and rear
+wheel lock. Brake calipers steer with the front wheels but do not spin.
+The source body shape and its integrated exhaust outlets are retained.
+The driving calibration and generic V8 soundtrack are gameplay adaptations,
+not specifications or a recording of a real V12 engine.
+
+The adapted model and its textures remain available under CC BY 4.0. Keep this
+attribution, source and licence links and identify further modifications when
+redistributing. No creator endorsement is implied. The licence is provided
+without warranties; it does not grant patent or trademark rights.
+
+Rendering library: Three.js 0.185.1
+Copyright the Three.js authors. MIT licence.
+https://github.com/mrdoob/three.js
+Full licence: vendor/THREE-LICENSE.txt
+GLTFLoader import paths were adjusted for this standalone distribution.
+
+Original game code: copyright 2026 Joni Finskas.
+GNU General Public License, version 3 only (GPL-3.0-only); full text: LICENSE.
+The software is provided without warranty.
+Third-party licences above remain applicable to their respective assets.
+
+
+LANDSCAPE ASSETS — CC0 1.0
+Poly Haven assets are CC0: https://polyhaven.com/license
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Alps Field — Andreas Mischok
+https://polyhaven.com/a/alps_field
+File: alps_field_2k.hdr (environment lighting and reflections)
+
+Aerial Grass Rock — Rob Tuytel
+https://polyhaven.com/a/aerial_grass_rock
+Files: aerial_grass_rock_diff_2k.jpg, aerial_grass_rock_nor_gl_1k.jpg
+
+Rock Face 03 — Dario Barresi (photography), Rico Cilliers (processing)
+https://polyhaven.com/a/rock_face_03
+Files: rock_face_03_diff_2k.jpg, rock_face_03_nor_gl_1k.jpg
+
+Textures are recoloured/blended in the terrain shader. Landscape geometry,
+road and scenery are procedurally authored for this game. Pine branch textures
+and distant tree sprites are baked from the photographs credited below; bark
+uses the same asset's bark photographs. The coastal routes are fictional
+Mediterranean roads, not surveyed routes. The circuit layout is credited below.
+The photographic HDR environment is an alpine lighting source. The sky and
+coastal background geometry are authored for the fictional route.
+
+AUDIO — CC0 1.0
+tire-squeal — JeffPearson
+https://freesound.org/people/JeffPearson/sounds/850041/
+Public OGG preview: https://cdn.freesound.org/previews/850/850041_17113968-lq.ogg
+Distributed locally as tyres.ogg.
+
+Car Strong Wind Noise.mp3 — FunWithSound
+https://freesound.org/people/FunWithSound/sounds/439242/
+Public OGG preview: https://cdn.freesound.org/previews/439/439242_6456158-lq.ogg
+Distributed locally as wind.ogg.
+
+The source pages expressly identify these audio assets as CC0.
+Tyre and wind recordings are cropped/crossfaded in memory for playback.
+The impact transient is synthesized.
+These are generic vehicle sounds, not a verified recording of this exact car.
+All asset licences checked on 2026-09-09. No attribution is required by CC0;
+creator credits are retained for provenance and acknowledgement.
+
+V8 ENGINE AUDIO — CC BY-SA 4.0
+Generic V8 Engine Sound — DerMeehdrescher / Meehdrescher Studios
+https://opengameart.org/content/generic-v8-engine-sound
+Original archive: https://opengameart.org/sites/default/files/genericv8sound.zip
+Licence: https://creativecommons.org/licenses/by-sa/4.0/
+Source page and attribution checked 2026-09-09.
+
+Acc_05570.wav is distributed as assets/audio/v8-acceleration.wav.
+Dec_05581.wav is distributed as assets/audio/v8-deceleration.wav.
+Original lossless 48 kHz, 16-bit PCM files are retained without sample changes.
+Playback modifications: loop-seam crossfades in memory, pitch shifting, filtering
+and load/coast mixing. Adaptations of these engine sounds are provided under
+CC BY-SA 4.0. Preserve attribution and licence, identify changes, and distribute
+adapted engine audio under the same licence. No additional restrictions apply
+to these audio assets or their adaptations. Other assets keep their own licences.
+The creator identifies these as V8 engine sounds; exact vehicle and recording
+provenance are not verified. They are not claimed as V12 Goblin or V12 engine recordings.
+
+
+PINE MATERIALS — CC0 1.0
+Pine Tree 01 — Rob Tuytel (photography), Rico Cilliers (modeling)
+https://polyhaven.com/a/pine_tree_01
+https://polyhaven.com/license
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Files: pine_tree_01_twig_diff_1k.jpg, pine_tree_01_twig_alpha_1k.png,
+pine_tree_01_twig_nor_gl_1k.jpg, pine_tree_01_bark_diff_1k.jpg,
+pine_tree_01_bark_nor_gl_1k.jpg.
+Original texture files are retained; the game samples a twig region of the atlas
+and applies the photographs to procedurally arranged branches and trunks.
+The complete Pine Tree 01 geometry is not included. Source file hashes and
+CC0 licence checked on 2026-09-10.
+
+Short exhaust and impact transients are synthesized separately from the licensed V8 recordings.
+
+
+NÜRBURGRING GRAND PRIX LAYOUT — MIT
+F1 Circuits by Tomislav Bacinger, copyright 2019–2025.
+https://github.com/bacinger/f1-circuits/blob/master/circuits/de-1927.geojson
+Data: assets/nurburgring-gp.json. Complete licence and source revision:
+assets/nurburgring-gp-LICENSE.txt.
+Coordinates are projected into the game and smoothed into a closed route. The
+horizontal layout follows the source. Elevation, widths, surroundings and pit
+buildings are simplified. This is an unofficial recreation with no endorsement.
+
+INTERFACE — MIT
+React, React DOM and Radix Select. Bundled dependency versions and complete
+licence texts are in vendor/ui-controls.LICENSE.txt.
+
+Additional runtime adaptations: matte black and preset car paint finishes;
+phase-aligned, energy-compensated engine-loop seams. Original audio asset bytes are retained. Engine-audio adaptations remain CC BY-SA 4.0.

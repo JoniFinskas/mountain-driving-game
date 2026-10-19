@@ -1,0 +1,6 @@
+minimumReleaseAge: 10080
+minimumReleaseAgeStrict: true
+minimumReleaseAgeIgnoreMissingTime: false
+strictDepBuilds: true
+allowBuilds: {}
+verifyDepsBeforeRun: false

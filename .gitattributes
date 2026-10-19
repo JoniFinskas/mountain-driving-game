@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.jpg -text
+*.png -text
+*.hdr -text
+*.glb -text
+*.wav -text
+*.ogg -text
